@@ -7,7 +7,7 @@ terraform {
     }
 
     backend "s3" {
-      bucket = "demo-terraform-eks-state-bucket"
+      bucket = "demo-terraform-eks-state-bucket-manash"
       key = "terraform.tfstate"
       region = "ap-south-1"
       dynamodb_table = "terraform-eks-state-locks"
